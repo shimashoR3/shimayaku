@@ -1,0 +1,55 @@
+[_tb_system_call storage=system/_hinnnyou.ks]
+
+[tb_start_text mode=1 ]
+わかりました。[p]
+次に該当する症状について教えてください。[p]
+[_tb_end_text]
+
+[glink  color="btn_07_green"  storage="hinnnyou.ks"  size="20"  text="男女共通と思われる症状"  x="200"  y="100"  width="270"  height="50"  _clickable_img=""  target="*男女共通"  ]
+[glink  color="btn_07_green"  storage="hinnnyou.ks"  size="20"  text="女性特有の症状"  x="800"  y="100"  width="270"  height="50"  _clickable_img=""  target="*女性のみ"  ]
+[glink  color="btn_10_lime"  storage="scene1.ks"  size="20"  x="36"  y="31"  width="90"  height="60"  text="戻る"  _clickable_img=""  target="*部位検索"  ]
+[s  ]
+*男女共通
+
+[tb_eval  exp="f.syoujou=13"  name="syoujou"  cmd="="  op="t"  val="13"  val_2="undefined"  ]
+[tb_start_text mode=1 ]
+わかりました。[p]
+尿に異常があったり、尿路や生殖に関わる臓器・器官に炎症がみられる[p]
+このような症状の場合は泌尿器科の受診をお勧めします。[p]
+少しでも体調や身体に異変があれば、病院を受診してくださいね。[p]
+[_tb_end_text]
+
+[jump  storage="tikabakennsaku.ks"  target="*調べる"  ]
+[chara_mod  name="医者"  time="600"  cross="true"  storage="chara/1/2647108.png"  ]
+[tb_start_text mode=1 ]
+お大事に。[p]
+[_tb_end_text]
+
+[chara_hide  name="医者"  time="1000"  wait="true"  pos_mode="true"  ]
+[tb_hide_message_window  ]
+[jump  storage="onemore.ks"  target="*始まり"  ]
+[s  ]
+*女性のみ
+
+[tb_eval  exp="f.syoujou=13"  name="syoujou"  cmd="="  op="t"  val="13"  val_2="undefined"  ]
+[tb_start_text mode=1 ]
+わかりました。[p]
+生理不順、おりものが多い[p]
+子宮脱、下腹部のしこりなど[p]
+このような症状の場合は婦人科の受診をお勧めします。[p]
+「なんとなく行きずらい」「内診が怖い」など[p]
+婦人科に抵抗のある人もいます。[p]
+でも、少しでも体に異変があれば年齢に関係なく受診してください。[p]
+個人的には悩むより先に行動してしまうことがおすすめですよ♪[p]
+[_tb_end_text]
+
+[jump  storage="tikabakennsaku.ks"  target="*調べる"  ]
+[chara_mod  name="医者"  time="600"  cross="true"  storage="chara/1/2647108.png"  ]
+[tb_start_text mode=1 ]
+お大事に。[p]
+[_tb_end_text]
+
+[chara_hide  name="医者"  time="1000"  wait="true"  pos_mode="true"  ]
+[tb_hide_message_window  ]
+[jump  storage="onemore.ks"  target="*始まり"  ]
+[s  ]

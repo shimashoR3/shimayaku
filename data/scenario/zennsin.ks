@@ -1,0 +1,122 @@
+[_tb_system_call storage=system/_zennsin.ks]
+
+[tb_start_text mode=1 ]
+わかりました。[p]
+次に該当する症状について教えてください。[p]
+[_tb_end_text]
+
+[glink  color="btn_07_green"  storage="zennsin.ks"  size="20"  x="280"  y="80"  width="290"  height="50"  text="血圧が高い・低い"  _clickable_img=""  target="*血圧"  ]
+[glink  color="btn_07_green"  storage="zennsin.ks"  size="20"  x="700"  y="80"  width="290"  height="50"  text="発熱・風邪症状"  _clickable_img=""  target="*風邪"  ]
+[glink  color="btn_07_green"  storage="zennsin.ks"  size="20"  x="280"  y="240"  width="290"  height="51"  text="疲れ・だるさ・急な体重変化"  _clickable_img=""  target="*だるさ"  ]
+[glink  color="btn_07_green"  storage="zennsin.ks"  size="20"  x="700"  y="240"  width="290"  height="50"  text="じんましん等アレルギー"  _clickable_img=""  target="*アレルギー"  ]
+[glink  color="btn_07_green"  storage="zennsin.ks"  size="20"  x="280"  y="400"  width="290"  height="50"  text="麻痺・けいれん"  _clickable_img=""  target="*麻痺"  ]
+[glink  color="btn_10_lime"  storage="scene1.ks"  size="20"  x="36"  y="31"  width="90"  height="60"  text="戻る"  _clickable_img=""  target="*部位検索"  ]
+[s  ]
+*血圧
+
+[tb_eval  exp="f.syoujou=5"  name="syoujou"  cmd="="  op="t"  val="5"  val_2="undefined"  ]
+[tb_start_text mode=1 ]
+わかりました。[p]
+その症状の場合は循環器内科の受診をお勧めします。[p]
+高血圧等の心配でしたら内科でもよいと思います。[p]
+より専門的に検査や治療が必要な場合は循環器内科に受診してください。[p]
+[_tb_end_text]
+
+[jump  storage="tikabakennsaku.ks"  target="*調べる"  ]
+[chara_mod  name="医者"  time="600"  cross="true"  storage="chara/1/2647108.png"  ]
+[tb_start_text mode=1 ]
+お大事に。[p]
+[_tb_end_text]
+
+[chara_hide  name="医者"  time="1000"  wait="true"  pos_mode="true"  ]
+[tb_hide_message_window  ]
+[jump  storage="onemore.ks"  target="*始まり"  ]
+[s  ]
+*風邪
+
+[tb_eval  exp="f.syoujou=2"  name="syoujou"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
+[tb_start_text mode=1 ]
+わかりました。[p]
+その症状の場合は内科の受診をお勧めします。[p]
+発熱などの原因は様々ありますが、まずは内科に受診しましょう。[p]
+風邪に似た初期症状のある他の疾患が見つかることもあります。[p]
+症状が軽い場合でも、病院に行きましょう。[p]
+[_tb_end_text]
+
+[jump  storage="tikabakennsaku.ks"  target="*調べる"  ]
+[chara_mod  name="医者"  time="600"  cross="true"  storage="chara/1/2647108.png"  ]
+[tb_start_text mode=1 ]
+お大事に。[p]
+[_tb_end_text]
+
+[chara_hide  name="医者"  time="1000"  wait="true"  pos_mode="true"  ]
+[tb_hide_message_window  ]
+[jump  storage="onemore.ks"  target="*始まり"  ]
+[s  ]
+*だるさ
+
+[tb_eval  exp="f.syoujou=2"  name="syoujou"  cmd="="  op="t"  val="2"  val_2="undefined"  ]
+[tb_start_text mode=1 ]
+わかりました。[p]
+その症状の場合は内科・内分泌科の受診をお勧めします。[p]
+風邪の症状のほか、うつ病や睡眠障害が原因の恐れがあります。[p]
+長く続いている場合は特に医師に相談してください。[p]
+[_tb_end_text]
+
+[jump  storage="tikabakennsaku.ks"  target="*調べる"  ]
+[chara_mod  name="医者"  time="600"  cross="true"  storage="chara/1/2647108.png"  ]
+[tb_start_text mode=1 ]
+お大事に。[p]
+[_tb_end_text]
+
+[chara_hide  name="医者"  time="1000"  wait="true"  pos_mode="true"  ]
+[tb_hide_message_window  ]
+[jump  storage="onemore.ks"  target="*始まり"  ]
+[s  ]
+*アレルギー
+
+[tb_eval  exp="f.syoujou=8"  name="syoujou"  cmd="="  op="t"  val="8"  val_2="undefined"  ]
+[tb_start_text mode=1 ]
+わかりました。[p]
+その症状の場合はアレルギー科・内科・皮膚科[p]
+耳鼻咽喉科の受診をお勧めします。[p]
+アレルギー検査は皮膚科・内科・アレルギー科などが主に行っています。[p]
+万が一急性のアレルギー症状が出た場合は、早急に救急外来へ受診しましょう。[p]
+[_tb_end_text]
+
+[jump  storage="tikabakennsaku.ks"  target="*調べる"  ]
+[chara_mod  name="医者"  time="600"  cross="true"  storage="chara/1/2647108.png"  ]
+[tb_start_text mode=1 ]
+お大事に。[p]
+[_tb_end_text]
+
+[chara_hide  name="医者"  time="1000"  wait="true"  pos_mode="true"  ]
+[tb_hide_message_window  ]
+[jump  storage="onemore.ks"  target="*始まり"  ]
+[s  ]
+*麻痺
+
+[tb_eval  exp="f.syoujou=12"  name="syoujou"  cmd="="  op="t"  val="12"  val_2="undefined"  ]
+[tb_start_text mode=1 ]
+わかりました。[p]
+その症状の場合は神経内科・脳神経外科の受診をお勧めします。[p]
+[_tb_end_text]
+
+[chara_mod  name="医者"  time="600"  cross="true"  storage="chara/1/2647119.png"  ]
+[tb_start_text mode=1 ]
+舌がもつれたり、言葉がうまく出てこない[p]
+眼振、物が二重に見える、運動障害等の症状がある場合[p]
+脳出血や脳梗塞の危険性があります。[p]
+早急に救急車などで脳神経内科、脳神経外科のある病院に行ってください。[p]
+[_tb_end_text]
+
+[jump  storage="tikabakennsaku.ks"  target="*調べる"  ]
+[chara_mod  name="医者"  time="600"  cross="true"  storage="chara/1/2647108.png"  ]
+[tb_start_text mode=1 ]
+お大事に。[p]
+[_tb_end_text]
+
+[chara_hide  name="医者"  time="1000"  wait="true"  pos_mode="true"  ]
+[tb_hide_message_window  ]
+[jump  storage="onemore.ks"  target="*始まり"  ]
+[s  ]

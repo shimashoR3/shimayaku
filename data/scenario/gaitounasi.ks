@@ -1,0 +1,22 @@
+[_tb_system_call storage=system/_gaitounasi.ks]
+
+[chara_mod  name="医者"  time="1000"  cross="true"  storage="chara/1/2647124.png"  ]
+[chara_mod  name="医者"  time="600"  cross="true"  storage="chara/1/2647119.png"  ]
+[tb_start_text mode=1 ]
+そうですか。[p]
+…こちらからではわかりかねますので[p]
+まずはかかりつけ医にご相談してみてはいかがでしょうか。[p]
+力になれず申し訳ございません。[p]
+[_tb_end_text]
+
+[chara_mod  name="医者"  time="600"  cross="true"  storage="chara/1/2636793.png"  ]
+[tb_start_text mode=1 ]
+差し出がましいかもしれませんが[p]
+[_tb_end_text]
+
+[tb_eval  exp="f.syoujou=0"  name="syoujou"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
+[jump  storage="tikabakennsaku.ks"  target="*調べる"  ]
+[chara_hide  name="医者"  time="1000"  wait="true"  pos_mode="true"  ]
+[tb_hide_message_window  ]
+[jump  storage="onemore.ks"  target="*始まり"  ]
+[s  ]

@@ -1,0 +1,7 @@
+[preload  storage="./data/bgimage/kusakusa2.jpg"  ]
+[preload  storage="./data/bgimage/116684.jpg"  ]
+[preload  storage="./data/fgimage/chara/4/1630833185244.png"  ]
+[preload  storage="./data/fgimage/chara/4/1630833118445.png"  ]
+[preload  storage="./data/bgimage/22062587.jpg"  ]
+[preload  storage="./data/bgimage/4320729_s.jpg"  ]
+[return]

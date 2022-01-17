@@ -11,7 +11,7 @@
 [glink  color="btn_07_green"  storage="fukubu.ks"  size="20"  text="下腹部の痛み"  x="700"  y="220"  width="230"  height="50"  target="*下腹部"  _clickable_img=""  ]
 [glink  color="btn_07_green"  storage="fukubu.ks"  size="20"  text="排便時痛む、出血"  x="280"  y="360"  width="230"  height="50"  target="*排便"  _clickable_img=""  ]
 [glink  color="btn_07_green"  storage="fukubu.ks"  size="20"  text="長期の下痢"  x="700"  y="360"  width="230"  height="50"  target="*下痢"  _clickable_img=""  ]
-[glink  color="btn_07_green"  storage="fukubu.ks"  size="20"  text="脱腸がある"  x="280"  y="500"  width="230"  height="50"  target="*undefined"  _clickable_img=""  ]
+[glink  color="btn_07_green"  storage="fukubu.ks"  size="20"  text="脱腸がある"  x="280"  y="500"  width="230"  height="50"  target="*脱腸"  _clickable_img=""  ]
 [glink  color="btn_10_lime"  storage="scene1.ks"  size="20"  x="36"  y="31"  width="90"  height="60"  text="戻る"  _clickable_img=""  target="*部位検索"  ]
 [s  ]
 *胸やけ、吐き気
@@ -124,7 +124,7 @@
 [tb_hide_message_window  ]
 [jump  storage="onemore.ks"  target="*始まり"  ]
 [s  ]
-*脱調
+*脱腸
 
 [tb_eval  exp="f.syoujou=13"  name="syoujou"  cmd="="  op="t"  val="13"  val_2="undefined"  ]
 [tb_start_text mode=1 ]

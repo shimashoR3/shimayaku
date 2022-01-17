@@ -1,4 +1,4 @@
-[_tb_system_call storage="system/ttitle_screen.ks"]
+[_tb_system_call storage=system/ttitle_screen.ks]
 
 [hidemenubutton]
 

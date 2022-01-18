@@ -1,4 +1,4 @@
-[call storage="system/_scene1.ks"]
+[call storage="system/c_scene1.ks"]
 
 *タイトル
 

@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/_staffcredit.ks]
+[_tb_system_call storage=system/c_staffcredit.ks]
 
 *スタッフクレジット
 

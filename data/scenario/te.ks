@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/_te.ks]
+[_tb_system_call storage=system/c_te.ks]
 
 [tb_start_text mode=1 ]
 わかりました。[p]

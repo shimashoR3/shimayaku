@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/_futsuu.ks]
+[_tb_system_call storage=system/c_futsuu.ks]
 
 *普通
 

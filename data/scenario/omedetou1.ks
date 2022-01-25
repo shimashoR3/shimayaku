@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/_omedetou1.ks]
+[_tb_system_call storage=system/c_omedetou1.ks]
 
 *あああ
 

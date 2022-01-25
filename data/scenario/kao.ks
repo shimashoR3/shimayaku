@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/_kao.ks]
+[_tb_system_call storage=system/c_kao.ks]
 
 [tb_start_text mode=1 ]
 わかりました。[p]

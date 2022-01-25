@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/_yappaiiya.ks]
+[_tb_system_call storage=system/c_yappaiiya.ks]
 
 [chara_mod  name="医者"  time="600"  cross="true"  storage="chara/1/2647124.png"  ]
 [chara_mod  name="医者"  time="600"  cross="true"  storage="chara/1/2636793.png"  ]

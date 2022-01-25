@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/_muzukasiifuseikai.ks]
+[_tb_system_call storage=system/c_muzukasiifuseikai.ks]
 
 *共通
 

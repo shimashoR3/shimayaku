@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/_kyoubu.ks]
+[_tb_system_call storage=system/c_kyoubu.ks]
 
 [tb_start_text mode=1 ]
 わかりました。[p]

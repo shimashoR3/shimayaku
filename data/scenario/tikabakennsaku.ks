@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/_tikabakennsaku.ks]
+[_tb_system_call storage=system/c_tikabakennsaku.ks]
 
 *調べる
 

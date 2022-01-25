@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/_muzukasii.ks]
+[_tb_system_call storage=system/c_muzukasii.ks]
 
 *むずかしい
 

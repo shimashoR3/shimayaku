@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/_byouin.ks]
+[_tb_system_call storage=system/c_byouin.ks]
 
 *じむ
 

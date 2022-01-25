@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/_gaitounasi.ks]
+[_tb_system_call storage=system/c_gaitounasi.ks]
 
 [chara_mod  name="医者"  time="1000"  cross="true"  storage="chara/1/2647124.png"  ]
 [chara_mod  name="医者"  time="600"  cross="true"  storage="chara/1/2647119.png"  ]

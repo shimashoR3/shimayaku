@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/_Quiz.ks]
+[_tb_system_call storage=system/c_Quiz.ks]
 
 [tb_start_text mode=1 ]
 クイズですね！[p]

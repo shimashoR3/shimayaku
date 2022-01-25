@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/_5monijou1.ks]
+[_tb_system_call storage=system/c_5monijou1.ks]
 
 *いいい
 

@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/_futsuuowari.ks]
+[_tb_system_call storage=system/c_futsuuowari.ks]
 
 *5以下
 

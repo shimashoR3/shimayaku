@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/_kantan2.ks]
+[_tb_system_call storage=system/c_kantan2.ks]
 
 *続き
 
